@@ -1,0 +1,176 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* Global Styles */
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    font-family: "Rubik", sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #2A5DB0; /* blue */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #1A3B80; /* darker blue on hover */
+}
+
+hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    color: #777777; /* gray */
+}
+
+/* Section Styles */
+section {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #333333; /* dark gray */
+}
+
+section ul,
+section ol {
+    padding-left: 20px;
+}
+
+/* Image Styles */
+
+.custom-image {
+  width: 1000px; /* Adjust the width as needed */
+}
+
+/* Article Styles */
+article {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+article h2 {
+    font-size: 1.8em;
+    color: #333333; /* dark gray */
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    display: flexbox;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article p {
+    line-height: 1.6;
+}
+
+/* Aside Styles */
+aside {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+aside h2 {
+    font-size: 1.8em;
+    color: #333333; /* dark gray */
+}
+
+/* Figure Styles */
+figcaption{
+    text-align: left;   
+}
+
+/* Details Styles */
+details {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+details summary {
+    font-size: 1.8em;
+    color: #333333; /* dark gray */
+    cursor: pointer;
+}
+
+details p {
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 1.8em;
+    color: #333333; /* dark gray */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #2A5DB0; /* blue */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+footer a:hover {
+    color: #1A3B80; /* darker blue on hover */
+}
+
+/* Media Query for Responsive Styles */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    li {
+        font-size: 1em;
+    }
+}
