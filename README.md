@@ -1,1 +1,1 @@
-"This is my CV." 
+A lab exercise that is done during the lab session which is about my personal CV.
